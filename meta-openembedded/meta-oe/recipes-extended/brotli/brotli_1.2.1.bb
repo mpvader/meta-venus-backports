@@ -22,3 +22,5 @@ do_install:append () {
 BBCLASSEXTEND = "native nativesdk"
 
 S = "${WORKDIR}/git"
+
+CVE_PRODUCT = "google:brotli"
